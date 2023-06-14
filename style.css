@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(https://www.phc-law.com/wp-content/uploads/2013/06/Background-opera-speeddials-community-web-simple-backgrounds.jpg);
+	background:cover;
+    background: #7db01d;
+}
+.container{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 15px;
+	width: 475px;
+	height: 300px;
+	background: #9f49b0;
+	border:1px solid #cecece;
+	box-shadow: 0 0 5px rgba(0,0,0,2);
+}
+.btn{
+	position: relative;
+	top:40px;
+	font-family: arial,sans-serif;
+	color:#fff;
+	background: #39ab39;
+	font-weight: bold;
+	padding: 8px 40px;
+	font-size: 22px;
+	border-radius: 10px;
+	outline:none;
+	border:1px solid transparent;
+	text-shadow: 2px 2px 4px rgba(0,0,0,.5);
+	cursor:pointer;
+}
+.btn:hover,
+.btn:focus{
+	background: #238c23;
+	border:1px solid transparent;
+}
+.notice{
+	position: relative;
+	top:60px;
+	font-family: arial,sans-serif;
+	font-size: 20px;
+	text-shadow: 0 0 1px rgba(0,0,0,.3);
+}
+#area{
+	position: relative;
+	top:80px;
+	height: 26px;
+	width: 175px;
+	font-family: arial,sans-serif;
+	font-size: 30px;
+	background: #e4e4e4;
+	border:1px solid gray;
+	border-radius: 7px;
+	display: block;
+	padding: 20px;
+	box-shadow: 0 0 3px rgba(0,0,0,.4);
+}
